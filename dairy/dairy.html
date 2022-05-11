@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
-<title>廊师日记</title>
+<title>我们的日记</title>
 <link rel="stylesheet" type="text/css" href="dairy.css">
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
@@ -23,7 +23,7 @@
 	<div class="center">
 		<li><a href="../main/main.html">精选动态</a></li>
 		<li><a href="../pic/pic.html">图片广场</a></li>
-		<li><a class="active" href="../dairy/dairy.html">廊师日记</a></li>
+		<li><a class="active" href="../dairy/dairy.html">我们的日记</a></li>
 		<li><a href="../about/about.html">关于我们</a></li>
 		<li style="float:right"><a href="../login/login.html">登录</a></li>
 	</div>
@@ -43,7 +43,7 @@
 	<ul class="drawernav">
 		<li><a href="../main/main.html">精选动态</a></li>
 		<li><a href="../pic/pic.html">图片广场</a></li>
-		<li><a class="active" href="../dairy/dairy.html">廊师日记</a></li>
+		<li><a class="active" href="../dairy/dairy.html">我们的日记</a></li>
 		<li><a href="../about/about.html">关于我们</a></li>
 		<li style="float:right"><a href="../login/login.html">登录</a></li>
 	</ul>
@@ -319,243 +319,7 @@ button1.onclick = function(){
 			}
 		</script>
 
-	</div>
-		<!--图文卡片 随意一瞥-->
-		<div class="unit">
-			<div class="unit_text_normal" id="text">
-				之前出游的照片，好怀念没有疫情的时候啊
-			</div>
-			<img class="unit_pic" id="pic9" src="thumbnail/图片9.jpg" alt="之前出游的照片，好怀念没有疫情的时候啊">
-		<!--js：弹出大图-->
-		<script>
-		// 获取模态窗口
-		var modal = document.getElementById("myModal");
-		// 获取图片模态框，alt 属性作为图片弹出中文本描述
-		var img = document.getElementById("pic9");
-		var modalImg = document.getElementById("pop_pic");
-		var captionText = document.getElementById("caption");
-		img.onclick = function()
-		{
-			modal.style.display = "flex";
-			modalImg.src = "图片9.jpg";
-			modalImg.alt = this.alt;
-			captionText.innerHTML = this.alt;
-		}
 
-		//关闭模态窗口
-		modal.onclick = function()
-		{ 
-			modal.style.display = "none";
-		}
-		</script>
-		
-		<img class="unit_pic" id="pic10" src="thumbnail/图片10.jpg" alt="之前出游的照片，好怀念没有疫情的时候啊">
-		<!--js：弹出大图-->
-		<script>
-		// 获取模态窗口
-		var modal = document.getElementById("myModal");
-		// 获取图片模态框，alt 属性作为图片弹出中文本描述
-		var img = document.getElementById("pic10");
-		var modalImg = document.getElementById("pop_pic");
-		var captionText = document.getElementById("caption");
-		img.onclick = function()
-		{
-			modal.style.display = "flex";
-			modalImg.src = "图片10.jpg";
-			modalImg.alt = this.alt;
-			captionText.innerHTML = this.alt;
-		}
-
-		//关闭模态窗口
-		modal.onclick = function()
-		{ 
-			modal.style.display = "none";
-		}
-		</script>
-		
-		<img class="unit_pic" id="pic11" src="thumbnail/图片11.jpg" alt="之前出游的照片，好怀念没有疫情的时候啊">
-		<!--js：弹出大图-->
-		<script>
-		// 获取模态窗口
-		var modal = document.getElementById("myModal");
-		// 获取图片模态框，alt 属性作为图片弹出中文本描述
-		var img = document.getElementById("pic11");
-		var modalImg = document.getElementById("pop_pic");
-		var captionText = document.getElementById("caption");
-		img.onclick = function()
-		{
-			modal.style.display = "flex";
-			modalImg.src = "图片11.jpg";
-			modalImg.alt = this.alt;
-			captionText.innerHTML = this.alt;
-		}
-
-		//关闭模态窗口
-		modal.onclick = function()
-		{ 
-			modal.style.display = "none";
-		}
-		</script>
-		
-		<img class="unit_pic" id="pic12" src="thumbnail/图片12.jpg" alt="之前出游的照片，好怀念没有疫情的时候啊">
-		<!--js：弹出大图-->
-		<script>
-		// 获取模态窗口
-		var modal = document.getElementById("myModal");
-		// 获取图片模态框，alt 属性作为图片弹出中文本描述
-		var img = document.getElementById("pic12");
-		var modalImg = document.getElementById("pop_pic");
-		var captionText = document.getElementById("caption");
-		img.onclick = function()
-		{
-			modal.style.display = "flex";
-			modalImg.src = "图片12.jpg";
-			modalImg.alt = this.alt;
-			captionText.innerHTML = this.alt;
-		}
-
-		//关闭模态窗口
-		modal.onclick = function()
-		{ 
-			modal.style.display = "none";
-		}
-		</script>
-		
-		</div>
-
-
-		<!--图文卡片 考试-->
-		<div class="unit">
-			<div class="unit_text_normal" id="text">
-				大家都在讨论物联网考试最后一题：如何避免下课期间楼道拥堵
-				<br><br>
-				我觉得其实很简单嘛。
-				<br><br>
-				解决方案：迟到、早退
-				<br>
-				优点： 避开高峰期
-				<br>
-				缺点：可能会漏掉部分上课内容
-				<br>
-				所需设备：一颗勇敢的心
-			</div>
-			<img class="unit_pic" id="pic23" src="thumbnail/图片23.jpg" alt="丢人">
-		<!--js：弹出大图-->
-		<script>
-		// 获取模态窗口
-		var modal = document.getElementById("myModal");
-		// 获取图片模态框，alt 属性作为图片弹出中文本描述
-		var img = document.getElementById("pic23");
-		var modalImg = document.getElementById("pop_pic");
-		var captionText = document.getElementById("caption");
-		img.onclick = function()
-		{
-			modal.style.display = "flex";
-			modalImg.src = "图片23.jpg";
-			modalImg.alt = this.alt;
-			captionText.innerHTML = this.alt;
-		}
-
-		//关闭模态窗口
-		modal.onclick = function()
-		{ 
-			modal.style.display = "none";
-		}
-		</script>
-		
-		<img class="unit_pic" id="pic25" src="thumbnail/图片25.jpg" alt="走吧，别丢人了">
-		<!--js：弹出大图-->
-		<script>
-		// 获取模态窗口
-		var modal = document.getElementById("myModal");
-		// 获取图片模态框，alt 属性作为图片弹出中文本描述
-		var img = document.getElementById("pic25");
-		var modalImg = document.getElementById("pop_pic");
-		var captionText = document.getElementById("caption");
-		img.onclick = function()
-		{
-			modal.style.display = "flex";
-			modalImg.src = "图片25.jpg";
-			modalImg.alt = this.alt;
-			captionText.innerHTML = this.alt;
-		}
-
-		//关闭模态窗口
-		modal.onclick = function()
-		{ 
-			modal.style.display = "none";
-		}
-		</script>
-		
-		<img class="unit_pic" id="pic26" src="thumbnail/图片26.jpg" alt="走吧，别丢人了">
-		<!--js：弹出大图-->
-		<script>
-		// 获取模态窗口
-		var modal = document.getElementById("myModal");
-		// 获取图片模态框，alt 属性作为图片弹出中文本描述
-		var img = document.getElementById("pic26");
-		var modalImg = document.getElementById("pop_pic");
-		var captionText = document.getElementById("caption");
-		img.onclick = function()
-		{
-			modal.style.display = "flex";
-			modalImg.src = "图片26.jpg";
-			modalImg.alt = this.alt;
-			captionText.innerHTML = this.alt;
-		}
-
-		//关闭模态窗口
-		modal.onclick = function()
-		{ 
-			modal.style.display = "none";
-		}
-		</script>
-		
-		</div>
-		<!--图文卡片 体育-->
-		<div class="unit">
-			<div class="unit_text_normal" id="text">
-				跑一跑步，锻炼一下身体
-				<br>
-				不能再这样让身体拖累我了
-				<br>
-				想象着旁边有同样的步伐和节奏
-				<br>
-				想象中另一双清风就在并排向前
-				<br>
-				似乎又有了一些冲刺的动力
-				<br>
-				还是不似当年那么强烈的信念和动力
-				<br>
-				就等你了
-			</div>
-			<img class="unit_pic" id="pic20" src="thumbnail/pic20.jpg" alt="就等你了">
-		<!--js：弹出大图-->
-		<script>
-		// 获取模态窗口
-		var modal = document.getElementById("myModal");
-		// 获取图片模态框，alt 属性作为图片弹出中文本描述
-		var img = document.getElementById("pic20");
-		var modalImg = document.getElementById("pop_pic");
-		var captionText = document.getElementById("caption");
-		img.onclick = function()
-		{
-			modal.style.display = "flex";
-			modalImg.src = "pic20.jpg";
-			modalImg.alt = this.alt;
-			captionText.innerHTML = this.alt;
-		}
-
-		//关闭模态窗口
-		modal.onclick = function()
-		{ 
-			modal.style.display = "none";
-		}
-		</script>
-		
-		</div>
-	
-	</div>
 </div>
 <br>
 
